@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const BtnQuote = ({objStyle,handleClick}) => {
+const BtnQuote = ({ objStyleBtn, handleClick }) => {
   return (
-    <button className='card__btn'  style={objStyle} 
-    onClick={handleClick}> &gt;</button>
-  )
-} 
+    <button style={objStyleBtn} className="card__btn" onClick={handleClick}>
+      &gt;
+    </button>
+  );
+};
 
-export default BtnQuote
+export default BtnQuote;
