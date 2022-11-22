@@ -1,17 +1,37 @@
 .App{
   width: 100%;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
 }
 
 .card{
   background-color: white;
   max-width: 500px;
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 .card__author{
   text-align: end;
   margin-bottom: 20px;
 }
+
+.card__icon{
+  font-size: 20px;
+  float: left;
+  padding-right: 5px;
+
+}
+
+.card__quote{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
 
 .card__btn{
   display: block;
@@ -20,10 +40,11 @@
   aspect-ratio: 1;
   border-radius: 50%;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 40px;
   color: white;
   box-shadow: 0 0 4px #0005;
   transition: box-shadow 100ms ease, transform 100ms ease;
+  
 }
 
 .card__btn:hover{

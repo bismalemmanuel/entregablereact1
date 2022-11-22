@@ -17,7 +17,7 @@ const QuoteBox = ({quoteRandom, handleClick, colorRandom}) => {
     
     <article className='card' style={objStyle} >
       <i className='card__icon fa-solid fa-quote-left'></i>
-      <p className='card__quote' style={objStyle} >{quoteRandom.quote} </p>
+      <p className='card__quote'>{quoteRandom.quote} </p>
       <h1 className='card__author'>{quoteRandom.author}</h1>
       <BtnQuote  
         objStyle={objStyle}
